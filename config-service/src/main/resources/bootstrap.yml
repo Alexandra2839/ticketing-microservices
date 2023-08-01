@@ -10,11 +10,11 @@ spring:
           uri: https://github.com/Alexandra2839/ticketing-project-microservices-config
           default-label: main
           username: Alexandra2839
-          password: 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
+          password: '{cipher}e760f1620098ebe2b7d3485f71d566c3af6b0b3fb086791d75c8f419aa15eeed2c48f20b003127ea22da23f6f62830c7830545606b584e9b498cf983e329bf12'
       fail-fast: true
 
-#encrypt:
-#  key: cydeo
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
